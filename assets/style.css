@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg in hsl longer hue, red, blue);
+    color: rgb(235, 234, 234);
+    min-height: 100vh;
+}
+
+header {
+    min-height: 10rem;
+    background: linear-gradient(90deg in hsl longer hue, red, blue);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+
+header p {
+    font-weight: bold;
+}
+
+h1, h2 {
+    padding-bottom: 0.5rem;
+}
+
+main {
+    background-color: rgb(39, 39, 39);
+    max-width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 2rem;
+    justify-content: space-around;
+    min-height: 75vh;
+}
+
+article {
+    border: 2px solid rgb(235, 234, 234);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    min-width: 65%;
+    padding: 1rem;
+}
+
+aside {
+    border: 2px solid rgb(235, 234, 234);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    min-width: 25%;
+    padding: 1rem;
+}
+
+aside ul {
+    padding-top: 1rem;
+}
+
+aside ul li {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: yellow;
+}
+
+footer {
+    background: linear-gradient(90deg in hsl longer hue, red, blue);
+    color: black;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
