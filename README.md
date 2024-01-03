@@ -9,3 +9,6 @@ To Run: node index.js
 
 Answer questions to generate an index.html file.
 Open the index.html file to see your portfolio!
+
+## License
+MIT
